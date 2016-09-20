@@ -5,14 +5,18 @@ body{
 
 ul {
 	list-style-type: square inside;
-	background: #F8766A;
+	background: #292829;
 	padding: 20px;
 }
 ul li{
-	background: #FF413B;
+	border-bottom-style: inset;
+	border-left-style: inset;
+	border-left-color: #C58AF0; 
+	border-bottom-color: #C58AF0;
+	background: #482F63;
 	margin: 5px;
 }
 
 a:link{
-	color: #322333;
+	color: #BDF9F9;
 }
