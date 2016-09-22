@@ -1,0 +1,17 @@
+body{
+	background-color: #F7FCE3;
+}
+
+li{
+	font-size: 20px;
+	padding: 10px;
+	margin: 5px;
+	display: inline;
+	
+}
+a{
+	color: #FFF;
+	text-decoration: none;
+	background-color: #0B0BE3;
+	padding: 10px;
+}
