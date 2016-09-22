@@ -1,22 +1,60 @@
 
 body{
-	background-color: #B3B8AC;
+	background: linear-gradient(Red, Ivory);
+	background-repeat: no-repeat;
+	
 }
 
+
 ul {
+	width: 30%;
 	list-style-type: square inside;
-	background: #292829;
+	background: #727564;
 	padding: 20px;
+    border-top-style: solid;
+    border-top-width: 20px;
+    border-top-color: #11151E;
+    border-style: ridge;
+    border-color: #212426;
+    box-shadow: 5px 5px 3px LightGrey
 }
 ul li{
-	border-bottom-style: inset;
-	border-left-style: inset;
-	border-left-color: #C58AF0; 
-	border-bottom-color: #C58AF0;
-	background: #482F63;
+	display: block;
+	border-style: solid;
+    border-color: #690C07; 
+	background: Ivory;
 	margin: 5px;
 }
 
+ol li{
+	
+border-style
+}
+
 a:link{
-	color: #BDF9F9;
+	color: Maroon;
+}
+a:visited{
+	color: #11151E;
+}
+img{
+	display: block;
+	margin: auto;
+	border-style: solid;
+	border-color: #11151E;
+}
+
+h1{
+	text-align: center;
+}
+
+footer{
+	
+	font-style: italic;
+
+	position: absolute;
+	bottom: 0px
+
+
+
 }
