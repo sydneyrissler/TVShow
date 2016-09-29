@@ -69,19 +69,33 @@
               question. Along the way they discover secrets of students and
               teachers and somehow find some humor in this grim situation.
               <br><br>For more information on this project or for updates, sign up for our newsletter so you can be in the know.
-          </p>
+          </p><br>
               
-          <form>
-              Your Name:<br>
-              <input type="text" name="firstname" value="Type name here"><br>
-              Email Address:<br>
-              <input type="text" name="lastname" value="Type email here"><br><br>
-              <input type="submit" value="Submit">
+          <form class="horizontal">
+            <div class="form-group">
+              <label for ="inputEmail3" class="col-sm-2 control-label">Your Name:</label>
+              <div class = "col-sm-6">
+                <input type="text" class="form-control" id="inputEmail3" placeholder="Name">
+              </div>
+            </div><br><br>
+            <div class = "form-group">
+              <label for ="inputEmail3" class="col-sm-2 control-label">Email Address:</label>
+              <div class="col-sm-6">
+                <input type="text" class = "form-control" id="inputEmail3" placeholder="Email">
+              </div>
+            </div><br><br>
+            <div class="form-group col-sm-2">
+              <input class="btn btn-danger" type="submit" value="Submit">
+            </div>
           </form>
-       
-        </sdiv>
-    
-        <footer>&copy; Copyright 2016, Hovey Kirkpatrick Studios</footer>
+
+          <footer class="col-sm-12">&copy; Copyright 2016, Hovey Kirkpatrick Studios</footer>
+          
+        </div>
+
+            <!-- Scripts required to make Bootstrap work better. -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+      <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     
     </body>
     
