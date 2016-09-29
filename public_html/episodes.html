@@ -3,27 +3,45 @@
 <html lang="en">
 
 <head>
-<<<<<<< HEAD
-<link rel="stylesheet" type="text/css" href="css/episodes.css"> 
-=======
-<link rel="stylesheet" type="text/css" href="css_style">
->>>>>>> 6d71feb13f41641f1b94bdb3ddb3ab1953517226
+
+
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1"> 
-  <title>Episode List</title>
+
+   <title>Episode List</title>
+  
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+   
    <link rel="stylesheet" href="custom.css">
 
   </head>
   
   <body>
-  <header> 
-    <img href = "index.html"> <img src = "img/content/title.png" alt = "Who Dunn It?" /> </img>
-       <nav>
-    <ul>
-      <li>
+   <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+
+            <!-- Three line "hamburger" icon for the collapsed navigation -->
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+          <!-- Title on nav bar -->
+          
+          <a class="navbar-brand" href="#"><img src = "img/content/title.png" alt = "Who Dunn It?" /> 
+          </a>
+        </div>
+
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+
+               <li>
         <a href="index.html">Home</a>
       </li>
 
@@ -49,19 +67,29 @@
        <li>
         <a href="more_information.html">More Information</a>
       </li>
-    </ul>
+          </ul>
+        </div>
+      </div>
   </nav>
-  <h1>Episodes</h1>
-  <h2>Season 1</h2>
-    <ol>
-        <li>"Pilot"</li>
-        <li>"Kent Find the Killer"</li>
-        <li>"Cowles Blooded Killer"</li>
-        <li>"Buxton of Leads"</li>
-        <li>"Pfeiff O'Clock Somewhere"</li>
-        <li>"Campus Carver"</li>      
-    </ol>
+
+  <header> 
+  <table class="table table-condensed">
+
+  <caption>Episodes</caption>
+  <thead>
+  <tr><th>Season</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>"Pilot"</td></tr>
+  <tr><td>"Kent Find the Killer"</td></tr>
+  <tr><td>"Cowles Blooded Killer"</td></tr>
+  <tr><td>"Buxton of Leads"</td></tr>
+  <tr><td>"Pfeiff O'Clock Somewhere"</td></tr>
+  <tr><td>"Campus Carver"</td></tr>      
+  </tbody>
+  </table>
   <h2>Season 2 Coming Out Soon</h2>
+ 
   </header>
   <footer>
     <p>Made by Hovey Kirkpatrick Studios</p>
