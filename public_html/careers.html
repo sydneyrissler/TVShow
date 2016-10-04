@@ -24,7 +24,7 @@
 <body>
     
     <header>
-        <img href = "index.html"> <img src = "img/content/title.png" alt = "Who Dunn It?" /> </img>
+        <img href = "index.html"> <img src = "img/content/title.png" alt = "Who Dunn It?" height = "50"/> </img>
      <!-- Navigation Bar -->
     <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
@@ -61,18 +61,23 @@
 
     <section>
         <p><strong>Provide your information and we'll contact you!</strong></p>
-        <form>
-           First name:<br>
-           <input type="text" name="firstname"><br>
-           Last name:<br>
-           <input type="text" name="lastname"><br>
-           Email:<br>
-           <input type="text" name="email"><br>
-           Dogs or Cats?<br>
-           <input type="radio" name="dogsOrCats" value="dogs" checked> Dogs<br>
-           <input type="radio" name="dogsOrCats" value="cats"> Cats<br>
-           <input type="submit" value="Submit">
-        </form>
+
+    <form class="form-inline">
+  <div class="form-group">
+    <label class="sr-only" for="exampleInputEmail3">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail3" placeholder="Email">
+  </div>
+  <div class="form-group">
+    <label class="sr-only" for="exampleInputPassword3">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword3" placeholder="Password">
+  </div>
+  <div class="checkbox">
+    <label>
+      <input type="checkbox"> Remember me
+    </label>
+  </div>
+  <button type="submit" class="btn btn-default">Sign in</button>
+</form>
     <footer>
         <p>Made By Hovey Kirkpatrick Studios</p>
     </footer>

@@ -17,13 +17,21 @@
 
      <!-- Our custom stylesheet that WE write. We need this to not have our
          text appear under the nav bar. -->
-    <link rel="stylesheet" href="custom.css">
+    <link rel="stylesheet" href="bootstrap_sheet">
+    
+        <style>
+.mycolor {
+    background-color: #EEE;
+    border-style: solid;
+    border-width: 3px;
+  }
+  </style>
     </head>
 
 <body>
     
     <header>
-        <img href = "index.html"> <img src = "img/content/title.png" alt = "Who Dunn It?" /> </img>
+        <img href = "index.html"> <img src = "img/content/title.png" alt = "Who Dunn It?" height = "50"/> </img>
          <!-- Navigation Bar -->
     <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
@@ -57,13 +65,17 @@
         <h1> Sign up for updates</h1>
     </header>
     <section>
-        <p>There's a student dead at the library, and the whole campus is
+    <div class="mycolor col-sm-4">
+        There's a student dead at the library, and the whole campus is
 asking one question:"Who Dunn It?" In this thrilling 
 account of life on the campus of a small college in the middle
 of Iowa, interviewers search for the answer to that very 
 question. Along the way they discover secrets of students and
-teachers and somehow find some humor in this grim situation.</p>
+teachers and somehow find some humor in this grim situation.
+</div>
+
     <p> For more information on this project or for updates, sign up for our newsletter so you can be in the know.</p>
+    
     <form action="action_page.php">
   Your Name:<br>
   <input type="text" name="firstname" value="Type name here"><br>
@@ -77,3 +89,4 @@ teachers and somehow find some humor in this grim situation.</p>
         <p>Made By Hovey Kirkpatrick Studios</p>
     </footer>
 </body>
+</html>
