@@ -1,63 +1,97 @@
 <!DOCTYPE html>
 
 <html lang="en">
-<head>
-<<<<<<< HEAD
-<link rel="stylesheet" type="text/css" href="css/episodes.css"> 
-=======
-<link rel="stylesheet" type="text/css" href="css_style">
->>>>>>> 6d71feb13f41641f1b94bdb3ddb3ab1953517226
-  <meta charset="utf-8">
-  <title>Episode List</title>
-  </head>
+
+    <head>
+    
+        <meta charset="utf-8">
+      
+        <title>Episode List</title>
+
+        <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+
+          <!--CSS is compatible with tablets/phones -->
+        <meta name="viewport" content="width-device-width, initial-scale=1">
+
+          <!--Main CSS styles for Bootstrap-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+          <!--Optional theme add-on-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+      
+    </head>
   
-  <body>
-  <header> 
-    <img href = "index.html"> <img src = "img/content/title.png" alt = "Who Dunn It?" /> </img>
-       <nav>
-    <ul>
-      <li>
-        <a href="index.html">Home</a>
-      </li>
+    <body>        
+      <!-- Navigation Bar -->
+      <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
 
-      <li>
-        <a href="about.html">About</a>
-      </li>
+              <!-- Three line "hamburger" icon for the collapsed navigation -->
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
 
-      <li>
-        <a href="cast.html">Meet the Cast</a>
-      </li>
-      <li>
-        <a href="episodes.html">Episode List</a>
-      </li>
-            <li>
-        <a href="locations.html">Filming Locations</a>
-      </li>
-      <li>
-        <a href="sponsors.html">Sponsors</a>
-      </li>
-       <li>
-        <a href="careers.html">Careers</a>
-      </li>
-       <li>
-        <a href="more_information.html">More Information</a>
-      </li>
-    </ul>
-  </nav>
-  <h1>Episodes</h1>
-  <h2>Season 1</h2>
-    <ol>
-        <li>"Pilot"</li>
-        <li>"Kent Find the Killer"</li>
-        <li>"Cowles Blooded Killer"</li>
-        <li>"Buxton of Leads"</li>
-        <li>"Pfeiff O'Clock Somewhere"</li>
-        <li>"Campus Carver"</li>      
-    </ol>
-  <h2>Season 2 Coming Out Soon</h2>
-  </header>
-  <footer>
-    <p>Made by Hovey Kirkpatrick Studios</p>
-  </footer>
-  </body>
-  </html>
+            <!-- Title on nav bar -->
+            <a class="navbar-brand" href="#">Who Dunn It?</a>
+          </div>
+
+          <div id="navbar" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="cast.html">Meet the Cast</a></li>
+                <li><a href="episodes.html">Episode List</a></li>
+                <li><a href="locations.html">Filming Locations</a></li>
+                <li><a href="sponsors.html">Sponsors</a></li>
+                <li><a href="more_info.html">More Information</a></li>
+                <li><a href="careers.html">Careers</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+        
+      <div class="container below_menu_container">
+        <br>
+        <div class="alert alert-warning">
+          <strong>Warning!</strong> This page may contain spoilers!
+        </div>
+
+        <h1>List of Episodes</h1>
+
+        <div>
+          <ol>
+              <li>"Pilot"
+                <ul><li>Find out where the murder took place and all the possible suspects. We give you a look into the lives of all of those possibly involved!</li></ul>
+              </li>
+              <li>"Kent Find the Killer"
+                <ul><li>New evidence has arisen that Ian was seen in Kent Campus Center the day he was murdered talking with Ethan. Suspects say that the conversation seemed very heated, but no one knows what they were talking about. Could Ethan be the killer?</li></ul>
+              </li>
+              <li>"Cowles Blooded Killer"
+                <ul><li>On the day of Ian's murder Aaron was at basketball practice in Cowles Fitness Center. Aaron noticed that Ian was talking to Courtney on the sidelines and didn't like the looks of it. Was there something going on between Ian and Courtney?.</li></ul> 
+              </li>
+              <li>"Buxton of Leads"
+                <ul><li>The night before Ian's murder he was seen by Kyle in Buxton Park with some friends. The boys were all very rowdy so Kyle decided to check out the situation. As he approached Ian seemed very frazzled, but Aaron and all his basketball buddies claimed that nothing was going on. Could Aaron be a murder suspect?</li></ul>
+              </li>
+              <li>"Pfeiff O'Clock Somewhere"
+                <ul><li>The day before Ian's murder he was seen eating lunch at Pheiffer by himself. Courtney said she saw Ethan walk by and give Ian a weird look. Moments later Ian got up and left without even finishing his food. What was going on between Ian and Ethan?</li></ul>
+              </li>
+              <li>"Campus Carver"
+                <ul><li>Everyone is a possible suspect on Kyle's list, but a shocking new piece of evidence could change that! In the anticipated finale of 'Who Dunn It?' we finally find out who really dunn it!</li></ul>
+              </li>
+          </ol>
+        </div>
+
+        <footer>&copy; Copyright 2016, Hovey Kirkpatrick Studios</footer><br>
+
+      </div>
+
+            <!-- Scripts required to make Bootstrap work better. -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+      <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+      
+    </body>
+</html>
