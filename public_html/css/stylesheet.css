@@ -21,6 +21,15 @@ nav li a:hover {
     position:relative;
 }
 
+@font-face {
+  font-family: butcherman;
+  src: url(butcherman.regular.ttf);
+}
+
+h1{
+  font-family: butcherman;
+}
+
 h3
 {
   color: #E7E8D1 !important; 
@@ -32,10 +41,6 @@ h3
 }
 
 /*--Cast Table-- */
-table, th, td{
-	border: 1px solid #CE0302 !important;
-}
-
 th{
 	height: 35px;
 	padding:5px;
