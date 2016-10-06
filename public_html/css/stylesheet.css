@@ -57,3 +57,11 @@ td{
 input[type=text]:focus{
     border: 2px solid #CE0302;
 }
+
+footer {
+  text-align: center;
+  background-color: #CCC;
+  border: 1px;
+  border-style: solid;
+  border-color: #111
+}
