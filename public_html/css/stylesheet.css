@@ -5,12 +5,7 @@ nav li a:hover {
 
 .below_menu_container
 {
-  padding-top: 50px;
-  margin: 5px;
-  background: #D9D9D9;
-  border-color: #CE0302;
-  border-style: solid;
-  border-width: 3px;
+  padding-top: 70px;
 }
 
 /* --Filming Locations-- */
@@ -26,6 +21,15 @@ nav li a:hover {
     position:relative;
 }
 
+@font-face {
+  font-family: butcherman;
+  src: url(butcherman.regular.ttf);
+}
+
+h1{
+  font-family: butcherman;
+}
+
 h3
 {
   color: #E7E8D1 !important; 
@@ -37,10 +41,6 @@ h3
 }
 
 /*--Cast Table-- */
-table, th, td{
-	border: 1px solid #CE0302 !important;
-}
-
 th{
 	height: 35px;
 	padding:5px;
@@ -58,48 +58,10 @@ input[type=text]:focus{
     border: 2px solid #CE0302;
 }
 
-.locations{
-    width: 500px;
-    height: 350px;
-}
-
-#dunn { 
-   position: relative; 
-   left:30px;
-   width: 100%;
-}
-
-#cowles{
-   position: relative; 
-   left: 670px;
-   top: -355px;
-   width: 100%;
-}
-
-#buxton{
-   position: relative; 
-   left: 30px;
-   top: -255px;
-   width: 100%; 
-}
-
-#plaza{
-   position: relative;
-   left: 670px; 
-   top: -610px;
-   width: 100%; 
-}
-
-#college_hall{
-   position: relative;
-   left: 30px;
-   top: -510px;
-   width: 100%; 
-}
-
-#carver{
-  position: relative;
-  left: 670px;
-  top: -865px;
-  width: 100%;
+footer {
+  text-align: center;
+  background-color: #CCC;
+  border: 1px;
+  border-style: solid;
+  border-color: #111
 }
