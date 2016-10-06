@@ -58,6 +58,14 @@ input[type=text]:focus{
     border: 2px solid #CE0302;
 }
 
+<<<<<<< HEAD
+footer {
+  text-align: center;
+  background-color: #CCC;
+  border: 1px;
+  border-style: solid;
+  border-color: #111
+=======
 .locations{
     width: 500px;
     height: 350px;
@@ -102,4 +110,5 @@ input[type=text]:focus{
   left: 670px;
   top: -865px;
   width: 100%;
+>>>>>>> d5f320f387d8ee25742c8ca348ffe05ba1c16fc0
 }
