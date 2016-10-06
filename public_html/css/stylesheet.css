@@ -65,3 +65,7 @@ footer {
   border-style: solid;
   border-color: #111
 }
+
+.btn-success {
+  margin-bottom: 30px;
+}
